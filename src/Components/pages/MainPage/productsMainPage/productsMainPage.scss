@@ -1,0 +1,52 @@
+
+
+.products {
+    background: url('../../../../resources/img/homeBgOurBest.jpg') center center / cover no-repeat;
+    width: 100%;
+    &__title {
+        display: block;
+        text-align: center;
+        padding-top: 80px;
+        font-family: 'Merienda';
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+        &-items {
+            margin-top: 10px;
+            font-family: 'Merienda';
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    &__items {
+        margin: 40px auto 0 auto;
+        padding-bottom: 110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 800px;
+    }
+    &__item {
+        cursor: pointer;
+        position: relative;
+        width: 220px;
+        height: 240px;
+        background: rgba(255, 255, 255, 0.65);
+        border-radius: 8px;
+        img {
+            display: block;
+            margin: 20px auto 0 auto;
+        }
+    }
+    &__price {
+        position: absolute;
+        font-family: 'Merienda';
+        font-weight: 700;
+        font-size: 14px;
+        color: #000000;
+        bottom: 22px;
+        right: 22px;
+    }
+}

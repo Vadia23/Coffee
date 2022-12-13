@@ -1,0 +1,24 @@
+header {
+    position: absolute;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    top: 30px;
+    left: 150px;
+    width: 355px;
+    height: 40px;
+    svg {
+        cursor: pointer;
+    }
+    button {
+        border: none;
+        background: transparent;
+        background-color: transparent;
+        font-family:'Merienda';
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+}

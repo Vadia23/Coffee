@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto:wght@500&display=swap');
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 355px;
+    height: 40px;
+    margin: 30px auto;
+    svg {
+        cursor: pointer;
+    }
+    button {
+        border: none;
+        background: transparent;
+        background-color: transparent;
+        font-family:'Merienda';
+        color: #000000;
+        text-decoration: none;
+        font-size: 12px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+}

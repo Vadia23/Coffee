@@ -1,0 +1,12 @@
+.mainPageDescr {
+    padding-top: 80px;
+    &__text{
+        font-family: 'Merienda';
+        width: 590px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #000000;
+        margin: 20px auto 100px auto;
+    }
+}

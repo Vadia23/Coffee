@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto:wght@500&display=swap');
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+.coffee {
+    background : url('../../../../resources/img/homeGeneral.jpg') center center/ cover no-repeat ;
+    width: 100%;
+    margin: 0 auto;
+    height: 640px;
+    // position: relative;
+}
+.promo {        
+    text-align: center;
+    &__title {
+        padding-top: 230px;
+        color: #fff;
+        font-family: 'Merienda';
+        font-weight: 700;
+        font-size: 40px;
+    }
+    svg {
+        margin-top: 20px;
+    }
+    &__subtitle {
+        font-family: 'Merienda';
+        color: #fff;
+        font-weight: 700;
+        font-size: 24px;
+        margin: 35px 0 0 0;
+        &-last {
+            margin-top: 20px;
+        }
+    }
+    &__btn {
+        background: transparent;
+        background-color: transparent;
+        margin-top: 18px;
+        width: 120px;
+        height: 30px;
+        font-family: 'Merienda';
+        font-weight: 700;
+        font-size: 14px;
+        color:#fff;
+        border: 1px solid #FFFFFF;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+
+
